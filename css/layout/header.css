@@ -1,0 +1,53 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.card ul li a:hover{
+    color: #27AE60;
+}
+header{
+    background-image: url(../../mages/glavni.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;                             
+}
+.prodaja-card__titl{
+    font-size: 60px;
+    color: aliceblue;
+    padding-top: 320px;
+}
+.prodaja-card__text{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.prodaja-card{
+    padding-bottom: 180px;
+}
+.card-tuggle{
+    display: none;
+}
+@media ( max-width:780px) {
+   .card-tuggle{
+    display: block;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+   }
+   .a{
+    display: none !important;
+   }
+} 
